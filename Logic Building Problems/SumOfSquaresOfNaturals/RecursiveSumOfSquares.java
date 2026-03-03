@@ -5,8 +5,7 @@ public class RecursiveSumOfSquares {
     if (n <= 0) { // for 0 or negative numbers
       return 0;
     }
-    // int sq = n * n;
-    // double sq = Math.pow(n, 2);
+    // int sq = n * n; OR = (int)Math.pow(n, 2);
     return n * n + SumOfSquares(n - 1);
   }
 
